@@ -48,7 +48,7 @@ function scrap($url, $inicioDeAlbum, $url2, $hashDIR)
 		echo $imaganesReady . "\n";
 		$hashrandom = substr( md5(microtime()), 1, 22);
 		$hashrandom2 = substr( md5(microtime()), 1, 22);
-		file_put_contents("./fotologs/". $_POST['name']. "_" . $hashDIR ."/". $hashrandom . "_" . $hashrandom2 .".png", file_get_contents($imaganesReady));
+		file_put_contents("./fotologs/". $_POST['name']. "_" . $hashDIR ."/". $hashrandom . "_" . $hashrandom2 .".jpg", file_get_contents($imaganesReady));
 
 		// Cuando cambia de la primera esto se desactiva para permitir el cambio de pagina
 		$GLOBALS['scrapOne'] = false;
