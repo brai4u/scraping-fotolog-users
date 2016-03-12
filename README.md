@@ -6,3 +6,6 @@ En esta version no solo se muestran los links diretos sino que se descargan las 
 
 Demo: https://fotologbackup.herokuapp.com/
 Developer: [twitter: @brai4u](https://twitter.com/brai4u)
+
+# Fotolog cerro.
+Fotolog cerro el 20 de enero, asi que si no usaste este script antes, ya no te sirve de nada :(
